@@ -13,6 +13,18 @@ shared here so other marketers, freelancers, and agencies can adapt them.
 > `description`, Claude follows the SKILL.md as a procedure. See the
 > [Claude Code skills docs](https://docs.claude.com/claude-code/skills).
 
+## ⚠️ Disclaimer
+
+These skills are **adapted to the tools exposed by my private MCP server**
+(Google Ads, Meta, LinkedIn Ads, GSC, GA4, HubSpot, etc.). Out of the box
+they will reference tool names like `get_gsc_pages` or `get_hubspot_deals`
+that do not exist in your environment — you'll need to either build an
+equivalent MCP, swap the tool calls for direct API calls, or use the
+SKILL.md files as prompt templates and feed data manually.
+
+**Want to know more about the MCP server, or have me set it up for you?**
+Book a call: [ferrerponseti.com/marketing-engineer](https://ferrerponseti.com/marketing-engineer/)
+
 ## What's inside
 
 ### `skills/` — 34 skills
